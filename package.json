@@ -1,0 +1,49 @@
+{
+  "name": "fs",
+  "version": "0.0.0",
+  "description": "file system",
+  "main": "server.ts",
+  "dependencies": {
+    "@sequelize/core": "^7.0.0-alpha.42",
+    "@sequelize/sqlite3": "^7.0.0-alpha.43",
+    "@sequelize/validator.js": "^7.0.0-alpha.43",
+    "bcrypt": "^5.1.1",
+    "dotenv": "^16.4.5",
+    "elliptic": "^6.6.1",
+    "express": "~4.21.1",
+    "express-validator": "^7.2.0",
+    "jsonwebtoken": "^9.0.2",
+    "lodash": "^4.17.21"
+  },
+  "devDependencies": {
+    "@jest/globals": "^29.7.0",
+    "@types/bcrypt": "^5.0.2",
+    "@types/elliptic": "^6.4.18",
+    "@types/express": "^5.0.0",
+    "@types/jest": "^29.5.14",
+    "@types/jsonwebtoken": "^9.0.7",
+    "@types/lodash": "^4.17.13",
+    "@types/node": "^22.9.0",
+    "@types/supertest": "^6.0.2",
+    "axios": "^1.7.7",
+    "globals": "^15.12.0",
+    "jest": "^29.7.0",
+    "nodemon": "^3.1.7",
+    "supertest": "^7.0.0",
+    "ts-jest": "^29.2.5",
+    "ts-node": "^10.9.2",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2"
+  },
+  "scripts": {
+    "start": "nodemon --exec tsx app.ts",
+    "test": "jest --watch"
+  },
+  "keywords": [
+    "fs",
+    "file-sharing",
+    "file-system"
+  ],
+  "author": "hard265",
+  "license": "MIT"
+}
